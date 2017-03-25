@@ -9,13 +9,11 @@ The Supplemental Nutritional Assistance Program (SNAP) offers assistance to mill
 
 **According to 5-year estimates of the data collected during the the 2011-2015 American Community Survey, approximately 14.3% of Washington households received food stamps/SNAP.**
 
-<br>
-
 **Question 1:** How do the different counties in Washington stack up against each other with respect to the percentage of households that have received food stamps/SNAP? (Margin of error in measurement is also displayed.)
 <iframe frameborder="0" allowtransparency="true" height="950" width="100%" src="https://gonzagasbacada.github.io/assets/2017-3-25-snap/countyplots.html"></iframe>
 
 
-<br><br>
+
 
 **Question 2:** Where are different counties geographically located? 
 
