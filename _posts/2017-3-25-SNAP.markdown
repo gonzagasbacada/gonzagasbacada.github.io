@@ -12,11 +12,11 @@ The Supplemental Nutritional Assistance Program (SNAP) offers assistance to mill
 <br>
 
 **Question 1:** How do the different counties in Washington stack up against each other with respect to the percentage of households that have received food stamps/SNAP? (Margin of error in measurement is also displayed.)
-<iframe frameborder="0" allowtransparency="true" height="950" width="100%" src="http://gonzagasbacada.github.io/assets/2017-3-25-snap/countyplots.html"></iframe>
+<iframe frameborder="0" allowtransparency="true" height="950" width="100%" src="https://gonzagasbacada.github.io/assets/2017-3-25-snap/countyplots.html"></iframe>
 
 
 <br><br>
 
 **Question 2:** Where are different counties geographically located? 
 
-<iframe frameborder="0" allowtransparency="true" height="800" width="100%" src="http://gonzagasbacada.github.io/assets/2017-3-25-snap/snapleaflet.html"></iframe>
+<iframe frameborder="0" allowtransparency="true" height="800" width="100%" src="https://gonzagasbacada.github.io/assets/2017-3-25-snap/snapleaflet.html"></iframe>
