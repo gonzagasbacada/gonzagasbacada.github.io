@@ -1,3 +1,3 @@
 This is the code for the website for Gonzaga SBA's Community Assessment and Data Analysis initiative. The website address is: [https://gonzagasbacada.github.io](https://gonzagasbacada.github.io).
 
-The website uses Lia Bogoev's [folio theme](http://liabogoev.com/-folio) for Jekyll and is hosted on GitHub.
+The website uses the [al-folio jekyll theme](https://github.com/alshedivat/al-folio), which is based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).

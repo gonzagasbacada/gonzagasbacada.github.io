@@ -1,30 +1,85 @@
+# -----------------------------------------------------------------------------
 # Site settings
-title: Community Assessment and Data Analysis
-email: patilv@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is an initiative of Gonzaga University's School of Business Administration.
-baseurl: # the subpath of your site, e.g. /blog/
-url: https://gonzagasbacada.github.io  # the base hostname & protocol for your site
-#twitter_username: twitter_username
-github_username:  gonzagasbacada
+# -----------------------------------------------------------------------------
+name: CADA 
+email: patil@gonzaga.edu
+description: > # this means to ignore newlines until "url:"
+footer_text: >
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+url:   # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/
+last_updated: # leave blank if you don't want to display last updated
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: gonzagasbacada # put your github username
+twitter_username: gonzagamba # put your twitter username
+linkedin_username: 15103135
+contact_note: > 
+  Please feel free to provide us with feedback or ideas for improvement.
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+blog_name: Findings..
+blog_description: 
+
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+
+# Comments
+disqus_shortname: gonzagasbacada # put your disqus shortname
+
+# Optional features
+show_social_icons:  false
+enable_anchorjs:    false
+enable_katex:       true
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+news_limit: 5
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 
-highlighter: rouge
+# Includes
+include: ['_pages']
 
-# Pagination
-paginate: 15
-paginate_path: "/blog/page:num/"
-gems: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
-
-
-#collections:
-#  portfolio:
-#    output: true
-#    permalink: /portfolio/:path/
-#  poetry:
-#    output: true
-#    permalink: /poetry/:path/
+# Gems
+gems:
+    - jekyll-paginate
+    - jekyll/scholar
+    - jemoji
 
 
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.7.1"
+anchorjs_version: "3.2.2"
