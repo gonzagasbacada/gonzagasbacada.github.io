@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>CADA | SNAP/Food Stamps in different counties in Washington</title>
+  <title>CADA | a post with code</title>
   <meta name="description" content="">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/2017/SNAP/">
+  <link rel="canonical" href="/blog/2015/code/">
 </head>
 
 
@@ -54,6 +54,8 @@
             <a class="page-link" href="/subscribe/">subscribe</a>
           
         
+          
+        
 
         <!-- CV link -->
         <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
@@ -72,22 +74,35 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">SNAP/Food Stamps in different counties in Washington</h1>
-    <p class="post-meta">October 2, 2017</p>
+    <h1 class="post-title">a post with code</h1>
+    <p class="post-meta">July 15, 2015</p>
   </header>
 
   <article class="post-content">
-    <p>The Supplemental Nutritional Assistance Program (SNAP) offers assistance to millions of low-income people by providing benefits to buy food. More on the program can be learned from the <a href="https://www.fns.usda.gov/snap/supplemental-nutrition-assistance-program-snap">US Department of Agriculture’s website</a> and for the State of Washington, from its <a href="https://www.dshs.wa.gov/esa/community-services-offices/basic-food">Department of Social and Health Services’ website</a>.</p>
+    <p>This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag:</p>
 
-<p><strong>According to 5-year estimates of the data collected during the the 2011-2015 American Community Survey, approximately 14.3% of Washington households received food stamps/SNAP.</strong></p>
+<p>{% highlight c++ %}  <br /> code code code <br /> {% endhighlight %}</p>
 
-<p><strong>Question 1:</strong> How do the different counties in Washington stack up against each other with respect to the percentage of households that have received food stamps/SNAP? (Margin of error in measurement is also displayed.)</p>
+<p>Produces something like this:</p>
 
-<iframe frameborder="0" allowtransparency="true" height="950" width="100%" src="/assets/2017-3-25-SNAP/countyplots.html"></iframe>
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
 
-<p><strong>Question 2:</strong> Where are different counties geographically located?</p>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
+    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
 
-<iframe frameborder="0" allowtransparency="true" height="800" width="100%" src="/assets/2017-3-25-SNAP/snapleaflet.html"></iframe>
+    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
+
+    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
 
   </article>
 

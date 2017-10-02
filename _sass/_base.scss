@@ -20,9 +20,12 @@ body {
   -webkit-box-sizing: border-box;
 }
 
+
+
+
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+    max-width: -webkit-calc(1200px - (#{$horizontal-spacing-unit} * 2));
+    max-width:         calc(1200px - (#{$horizontal-spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $horizontal-spacing-unit;

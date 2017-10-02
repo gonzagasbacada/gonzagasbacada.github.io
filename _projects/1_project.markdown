@@ -1,55 +1,27 @@
 ---
 layout: page
-title: Project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Gonzaga MAPS
+description: Mapping Assets and Promoting Strengths
+img: /assets/1assets/maps-logo.jpg
 ---
+<center><img src="/assets/1assets/maps-logo.jpg"></center>
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+In 2014-2015, Gonzaga University conducted the Mapping Assets and Promoting Strengths (MAPS) project. (Both, Matthew McPherson and Vivek Patil, were members of the team.) The immediate objective of the project was to identify assets, primarily in the Logan neighborhood, that could serve as change-agents at a subsequent time to spear-head developmental initiatives. (Few assets were also identified from adjoining neighborhoods of the Northeast quadrant of Spokane that contained the Garry and Shaw Middle Schools service areas.) One key outcome of that project was an interactive geographic map of 1321 assets from these neighborhoods. This map was developed by Vivek Patil. (More information on the MAPS project can be obtained from <a href="http://www.gonzaga.edu/student-life/MAPS/default.asp" target="blank">its website at Gonzaga University.</a>)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### How to Interact with the MAPS Visualization
 
-    ---
-    layout: page
-    title: Project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<video width="800" height="600" controls muted>
+  <source src="/assets/1assets/gumapsfast.mp4" type="video/mp4">
+  
+</video>
 
+<br>
 
-<div class="img_row">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/1.jpg" alt="" title="example image"/>
-    <img class="col one" src="{{ site.baseurl }}/assets/img/2.jpg" alt="" title="example image"/>
-    <img class="col one" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-    <img class="col three" src="{{ site.baseurl }}/assets/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    This image can also have a caption. It's like magic.
-</div>
+### MAPS visualization
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+(Please note that the visualization is best viewed on a computer. It can be directly accessed at the following <a href="http://analytics.gonzaga.edu/MAPSProject-combo/" target="blank">MAPS visualization website.</a>)
 
+<br>
+								
+<iframe src="http://analytics.gonzaga.edu/MAPSProject-combo/" width="1200" height="1000" frameBorder="0"></iframe> 
 
-<div class="img_row">
-    <img class="col two" src="{{ site.baseurl }}/assets/img/6.jpg" alt="" title="example image"/>
-    <img class="col one" src="{{ site.baseurl }}/assets/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-<br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above:
-
-    <div class="img_row">
-      <img class="col two" src="/img/6.jpg"/>
-      <img class="col one" src="/img/11.jpg"/>
-    </div>
