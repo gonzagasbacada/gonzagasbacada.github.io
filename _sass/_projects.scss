@@ -10,6 +10,8 @@
         overflow: hidden;
         height: 200px;
         width: 100%;
+		border: 1px solid #ddd;
+		border-radius: 4px;
 
         img {
             height: auto;
@@ -17,7 +19,7 @@
                 left: -25%;
                 top: -5%;
             width: 500px;
-        }
+			}
 
         a {
             float: left;
@@ -32,9 +34,9 @@
                 left: 0;
                 bottom: 0;
                 right: 0;
-                background: rgba(0,0,0,0.4);
-                color: $grey-color-light;
-                padding: 40px;
+                background: rgba(0,0,255,0.6);
+                color: white;
+                padding: 80px;
                 text-align: center;
 
                 h1 {
@@ -43,7 +45,7 @@
                 }
 
                 p {
-                    color: $grey-color-light;
+                    color: white;
                 }
             }
 

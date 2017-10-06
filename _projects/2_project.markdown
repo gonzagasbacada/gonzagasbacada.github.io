@@ -5,7 +5,7 @@ description: Beyond the MAPS project
 img: /assets/2assets/loganneeds.png
 ---
 
-This project extended the outcomes of the MAPS project in two distinct ways. One, it identified characteristics that residents of the Logan neighborhood believed were important for *any* good neighborhood. Second, it provides an evaluation of the Logan neighborhood in terms of these important characteristics. These results are based on surveys of 788 residents of the Logan neighborhood that were conducted in the first half of 2016. (**Please note that all of the visualizations are interactive in nature. Hovering over/clicking individual observations may provide more information.**)
+This project extended the outcomes of the MAPS project in two distinct ways. One, it identified characteristics that residents of the Logan neighborhood believed were important for *any* good neighborhood. Second, it provided an evaluation of the Logan neighborhood in terms of these important characteristics. These results are based on surveys of 788 residents of the Logan neighborhood that were conducted in the first half of 2016. (**Please note that all of the visualizations are interactive in nature. Hovering over/clicking individual observations may provide more information.**)
 
 ### Importance of Issues in the Logan Neighborhood
 
@@ -29,7 +29,7 @@ This project extended the outcomes of the MAPS project in two distinct ways. One
 
 <br>
 
-### Geographic Dispersion of Issues and Visualization of Hot-Spots
+### Geographic Dispersion of Issues and Visualization of Hot-Spots 
 
 <iframe src="http://analytics.gonzaga.edu/GUMaps-IADashboards" width="1200" height="1000" frameBorder="0"></iframe> 
 						
