@@ -31,7 +31,7 @@ This project extended the outcomes of the MAPS project in two distinct ways. One
 
 ### Geographic Dispersion of Issues and Visualization of Hot-Spots 
 
-<iframe src="http://analytics.gonzaga.edu/GUMaps-IADashboards" width="1200" height="1000" frameBorder="0"></iframe> 
+<iframe src="https://analytics.gonzaga.edu/GUMaps-IADashboards" width="1200" height="1000" frameBorder="0"></iframe> 
 						
 						
 						

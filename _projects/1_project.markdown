@@ -38,5 +38,5 @@ In 2014-2015, Gonzaga University conducted the Mapping Assets and Promoting Stre
 
 <br>
 								
-<iframe src="http://analytics.gonzaga.edu/MAPSProject-combo" width="1200" height="1000" frameBorder="0"></iframe> 
+<iframe src="https://analytics.gonzaga.edu/MAPSProject-combo" width="1200" height="1000" frameBorder="0"></iframe> 
 
