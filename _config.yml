@@ -5,9 +5,9 @@ name: CADA
 email: patil@gonzaga.edu
 description: > # this means to ignore newlines until "url:"
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  <a href="https://www.gonzaga.edu/academics/colleges-and-schools/school-of-business-administration/default.asp" target="_blank"> Gonzaga University, School of Business Administration</a>. Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-url: https://gonzagasbacada.github.io  # the base hostname & protocol for your site
+url: https://gonzagasbacada.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
@@ -15,7 +15,8 @@ last_updated: # leave blank if you don't want to display last updated
 # Social integration
 # -----------------------------------------------------------------------------
 github_username: gonzagasbacada # put your github username
-twitter_username: gonzagamba # put your twitter username
+twitter_username: GonzagaU_SBA # put your twitter username
+facebook_username: GonzagaSBA
 linkedin_username: 15103135
 contact_note: > 
   Please feel free to provide us with feedback or ideas for improvement.
@@ -40,7 +41,7 @@ text:
 disqus_shortname: gonzagasbacada # put your disqus shortname
 
 # Optional features
-show_social_icons:  false
+show_social_icons:  true
 enable_anchorjs:    false
 enable_katex:       true
 
